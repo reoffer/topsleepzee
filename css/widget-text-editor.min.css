@@ -1,0 +1,128 @@
+/*! elementor - v3.25.0 - 24-11-2024 */
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: #69727d;
+    color: #fff
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+    color: #69727d;
+    border: 3px solid;
+    background-color: transparent
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+    margin-top: 8px
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+    width: 1em;
+    height: 1em
+}
+
+.elementor-widget-text-editor .elementor-drop-cap {
+    float: left;
+    text-align: center;
+    line-height: 1;
+    font-size: 50px
+}
+
+.elementor-widget-text-editor .elementor-drop-cap-letter {
+    display: inline-block
+}
+
+.QualityBox {
+    /* border: 1px solid #227A64; */
+    box-shadow: 0 0 15px #ccc;
+    margin: 0 auto;
+    padding: 40px;
+    /* background-color: #F5FDFB; */
+    border-radius: 10px;
+}
+
+.QualityBox h2 {
+    font-size: 1.25rem;
+    color: #171B1E;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.QualityBox .elementor-divider-separator {
+    width: 116px;
+    height: 1px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.QualityBox .e-grid {
+    display: grid;
+    gap: 24px 24px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: row;
+    padding-top: 20px;
+    justify-items: legacy;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.QualityBox .e-grid .e-con-inner {
+    display: grid;
+    align-items: initial;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px 24px;
+}
+
+.QualityBox .e-grid .e-con-inner .elementor-icon-box-wrapper {
+    display: flex;
+}
+
+.QualityBox .elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 15px;
+    width: 22px;
+}
+
+.QualityBox .elementor-icon {
+    font-size: 22px;
+    fill: #1479df;
+    color: #1479df;
+    border-color: #1479df;
+}
+
+.QualityBox .elementor-icon-box-title {
+    font-family: "Noto Sans", Sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    color: #171B1E;
+}
+
+.QualityBox .elementor-icon-box-description {
+    font-family: "Merriweather", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    color: #171B1E;
+}
+
+@media (max-width: 767px) {
+    .QualityBox {
+        width: 90%;
+        padding: 20px;
+    }
+    .QualityBox .e-grid .e-con-inner {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: row;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .QualityBox {
+        width: 90%;
+        padding: 20px;
+    }
+}
